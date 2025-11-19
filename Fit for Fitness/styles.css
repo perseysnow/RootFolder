@@ -1,0 +1,136 @@
+.container-fluid {
+
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(12, 58, 95);
+    box-shadow: 10px 10px 5px rgb(236, 205, 191);
+
+}
+
+/*tried really hard to make the name of the place stand out but bootstrap fought every step of the way*/
+
+.navbar-brand {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3vw;
+}
+
+/*tried to use display:flex and children to change position of links in navbar and tried it using multiple class. would not overcome whatever is in bootstrap */
+
+.navbar a {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(255, 138, 84);
+}
+
+.navbar a:hover {
+    background-color: rgb(255, 138, 84);
+    font-style: italic;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/*height because I misjudged the size needed when cropping and resizing this picture in GIMP */
+
+.banner {
+    height: 250px;
+    margin-top: 0px;
+    box-shadow: 10px 10px 10px 5px rgb(236, 205, 191);
+}
+
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    border: 3px solid rgb(12, 58, 95);
+    box-shadow: 5px 5px 5px 2px rgb(192, 201, 207);
+    background-color: rgb(188, 221, 248);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+/*Discovered inset on W3Schools and had to try it out. I like it*/
+
+.card-body {
+    box-shadow: 10px 10px 50px 10px rgb(255, 206, 183) inset;
+}
+
+/*tried to add a background image for the schedule page, but it didn't work. Unsure if it was the picture size or some other issue. Attempts at a background color were not good.*/
+
+.schedule-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 5vw;
+    text-decoration: underline;
+}
+
+table {
+    border: 3px solid rgb(12, 58, 95);
+    box-shadow: 5px 5px 5px 2px rgb(192, 201, 207);
+}
+
+/*per w3schools vw is how you get responsive text size */
+
+.contactuspage {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+form {
+    border: 3px solid rgb(12, 58, 95);
+    box-shadow: 5px 5px 5px 2px rgb(192, 201, 207);
+    padding: 50px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color: rgb(245, 201, 181);
+
+}
+
+.top-button {
+    text-decoration: none;
+    background: rgb(255, 138, 84);
+    border: 2 solid rgb(41, 42, 43);
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: ghostwhite;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}
+
+footer {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
